@@ -16,5 +16,9 @@ namespace Coffee
         {
             InitializeComponent();
         }
+
+        ICoffee currentCoffee;
+
+
     }
 }

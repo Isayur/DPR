@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Coffee
 {
-    public class SimpleCoffee:ICoffee
+    public class SimpleCoffee : ICoffee
     {
         public string getDescription()
         {
-            return "Water, Coffee";
+            return "Simple coffee with ";
         }
 
         public double getCost()

@@ -8,8 +8,8 @@ namespace Coffee
 {
     public interface ICoffee
     {
-        public String getDescription();
+        string getDescription();
 
-        public double getCost();
+        double getCost();
     }
 }

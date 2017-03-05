@@ -6,22 +6,16 @@ using System.Threading.Tasks;
 
 namespace Coffee
 {
-    abstract class Decorator: ICoffee
+    public abstract class Decorator: ICoffee
     {
         protected ICoffee tempCoffee;
 
-        public Decorator(ICoffee newCoffee)
-        {
-            tempCoffee = newCoffee;
-        }
-        public string getDescription()
-        {
-            return tempCoffee.getDescription();
-        }
+        //public Decorator(ICoffee newCoffee)
+        //{
+        //    tempCoffee = newCoffee;
+        //}
+        public abstract string getDescription();
 
-        public double getCost()
-        {
-            return tempCoffee.getCost();
-        }
+        public abstract double getCost();
     }
 }

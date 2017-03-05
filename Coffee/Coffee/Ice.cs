@@ -6,20 +6,20 @@ using System.Threading.Tasks;
 
 namespace Coffee
 {
-    public class Ice:Decorator
+    public class Ice : Decorator
     {
-        //public Ice(ICoffee newCoffee)
-        //{
-
-        //}
-
-        public string getDescription()
+        public Ice(ICoffee newCoffee)
         {
-            return tempCoffee.getDescription() + ", Ice, Cream";
+            ICoffee tempCoffee = newCoffee;
         }
-        public double getCost()
+
+        public override string getDescription()
         {
-            return tempCoffee.getCost() + .90;
+            return tempCoffee.getDescription() + ", Ice";
+        }
+        public override double getCost()
+        {
+            return tempCoffee.getCost() + 0.10;
         }
     }
 }

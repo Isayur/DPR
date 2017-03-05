@@ -6,20 +6,16 @@ using System.Threading.Tasks;
 
 namespace Coffee
 {
-    public class Espresso: Decorator
+    public class Espresso : ICoffee
     {
-        //public Espresso(ICoffee newCoffee)
-        //{
-            
-        //}
-
         public string getDescription()
         {
-            return tempCoffee.getDescription() + ", Water, Grind, Dose";
+            return "Espresso with ";
         }
+
         public double getCost()
         {
-            return tempCoffee.getCost() + .50;
+            return 3.22;
         }
     }
 }

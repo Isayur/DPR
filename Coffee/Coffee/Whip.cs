@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Coffee
 {
-    public class Soy : Decorator
+    class Whip : Decorator
     {
-        public Soy(ICoffee newCoffee)
+        public Whip(ICoffee newCoffee)
         {
             tempCoffee = newCoffee;
         }
@@ -19,7 +19,7 @@ namespace Coffee
         }
         public override double getCost()
         {
-            return tempCoffee.getCost() + .30;
+            return tempCoffee.getCost() + .50;
         }
     }
 }

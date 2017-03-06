@@ -42,6 +42,7 @@
             this.addMilk = new System.Windows.Forms.Button();
             this.finishCreation = new System.Windows.Forms.Button();
             this.beveragesSoldLb = new System.Windows.Forms.ListBox();
+            this.currentCoffeeTb = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // selectSimple
@@ -163,7 +164,7 @@
             // 
             // finishCreation
             // 
-            this.finishCreation.Location = new System.Drawing.Point(160, 129);
+            this.finishCreation.Location = new System.Drawing.Point(163, 146);
             this.finishCreation.Name = "finishCreation";
             this.finishCreation.Size = new System.Drawing.Size(138, 23);
             this.finishCreation.TabIndex = 12;
@@ -174,16 +175,25 @@
             // beveragesSoldLb
             // 
             this.beveragesSoldLb.FormattingEnabled = true;
-            this.beveragesSoldLb.Location = new System.Drawing.Point(12, 176);
+            this.beveragesSoldLb.Location = new System.Drawing.Point(12, 190);
             this.beveragesSoldLb.Name = "beveragesSoldLb";
-            this.beveragesSoldLb.Size = new System.Drawing.Size(420, 95);
+            this.beveragesSoldLb.Size = new System.Drawing.Size(420, 108);
             this.beveragesSoldLb.TabIndex = 13;
+            // 
+            // currentCoffeeTb
+            // 
+            this.currentCoffeeTb.Location = new System.Drawing.Point(86, 120);
+            this.currentCoffeeTb.Name = "currentCoffeeTb";
+            this.currentCoffeeTb.ReadOnly = true;
+            this.currentCoffeeTb.Size = new System.Drawing.Size(303, 20);
+            this.currentCoffeeTb.TabIndex = 14;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(482, 288);
+            this.ClientSize = new System.Drawing.Size(482, 310);
+            this.Controls.Add(this.currentCoffeeTb);
             this.Controls.Add(this.beveragesSoldLb);
             this.Controls.Add(this.finishCreation);
             this.Controls.Add(this.addMilk);
@@ -221,6 +231,7 @@
         private System.Windows.Forms.Button addMilk;
         private System.Windows.Forms.Button finishCreation;
         private System.Windows.Forms.ListBox beveragesSoldLb;
+        private System.Windows.Forms.TextBox currentCoffeeTb;
     }
 }
 

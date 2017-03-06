@@ -8,3 +8,6 @@ D:\GitRepos\DPR\DPR\Coffee\Coffee\obj\Debug\Coffee.Properties.Resources.resource
 D:\GitRepos\DPR\DPR\Coffee\Coffee\obj\Debug\Coffee.csproj.GenerateResource.Cache
 D:\GitRepos\DPR\DPR\Coffee\Coffee\obj\Debug\Coffee.exe
 D:\GitRepos\DPR\DPR\Coffee\Coffee\obj\Debug\Coffee.pdb
+C:\Users\Yordanov\Desktop\DPR\Coffee\Coffee\bin\Debug\Coffee.exe.config
+C:\Users\Yordanov\Desktop\DPR\Coffee\Coffee\obj\Debug\Coffee.exe
+C:\Users\Yordanov\Desktop\DPR\Coffee\Coffee\obj\Debug\Coffee.pdb

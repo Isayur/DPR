@@ -1,0 +1,9 @@
+D:\Isair\Study\DPR\Week1DPR\Week1DPR\bin\Debug\Week1DPR.exe.config
+D:\Isair\Study\DPR\Week1DPR\Week1DPR\bin\Debug\Week1DPR.exe
+D:\Isair\Study\DPR\Week1DPR\Week1DPR\bin\Debug\Week1DPR.pdb
+D:\Isair\Study\DPR\Week1DPR\Week1DPR\obj\Debug\Week1DPR.csprojResolveAssemblyReference.cache
+D:\Isair\Study\DPR\Week1DPR\Week1DPR\obj\Debug\Week1DPR.Form1.resources
+D:\Isair\Study\DPR\Week1DPR\Week1DPR\obj\Debug\Week1DPR.Properties.Resources.resources
+D:\Isair\Study\DPR\Week1DPR\Week1DPR\obj\Debug\Week1DPR.csproj.GenerateResource.Cache
+D:\Isair\Study\DPR\Week1DPR\Week1DPR\obj\Debug\Week1DPR.exe
+D:\Isair\Study\DPR\Week1DPR\Week1DPR\obj\Debug\Week1DPR.pdb

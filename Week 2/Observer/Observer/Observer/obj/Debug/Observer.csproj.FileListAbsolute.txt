@@ -1,0 +1,35 @@
+c:\users\yordanov\documents\visual studio 2013\Projects\Observer\Observer\bin\Debug\Observer.exe.config
+c:\users\yordanov\documents\visual studio 2013\Projects\Observer\Observer\bin\Debug\Observer.exe
+c:\users\yordanov\documents\visual studio 2013\Projects\Observer\Observer\bin\Debug\Observer.pdb
+c:\users\yordanov\documents\visual studio 2013\Projects\Observer\Observer\obj\Debug\Observer.Main.resources
+c:\users\yordanov\documents\visual studio 2013\Projects\Observer\Observer\obj\Debug\Observer.Properties.Resources.resources
+c:\users\yordanov\documents\visual studio 2013\Projects\Observer\Observer\obj\Debug\Observer.csproj.GenerateResource.Cache
+c:\users\yordanov\documents\visual studio 2013\Projects\Observer\Observer\obj\Debug\Observer.exe
+c:\users\yordanov\documents\visual studio 2013\Projects\Observer\Observer\obj\Debug\Observer.pdb
+c:\users\yordanov\documents\visual studio 2013\Projects\Observer\Observer\obj\Debug\Observer.formText.resources
+c:\users\yordanov\documents\visual studio 2013\Projects\Observer\Observer\obj\Debug\Observer.formRectangle.resources
+c:\users\yordanov\documents\visual studio 2013\Projects\Observer\Observer\obj\Debug\Observer.formCircle.resources
+C:\Users\Isair\Downloads\Observer\Observer\Observer\bin\Debug\Observer.exe.config
+C:\Users\Isair\Downloads\Observer\Observer\Observer\obj\Debug\Observer.exe
+C:\Users\Isair\Downloads\Observer\Observer\Observer\obj\Debug\Observer.pdb
+C:\Users\Isair\Downloads\Observer\Observer\Observer\bin\Debug\Observer.exe
+C:\Users\Isair\Downloads\Observer\Observer\Observer\bin\Debug\Observer.pdb
+C:\Users\Isair\Downloads\Observer\Observer\Observer\obj\Debug\Observer.csprojResolveAssemblyReference.cache
+C:\Users\Isair\Downloads\Observer\Observer\Observer\obj\Debug\Observer.formCircle.resources
+C:\Users\Isair\Downloads\Observer\Observer\Observer\obj\Debug\Observer.formRectangle.resources
+C:\Users\Isair\Downloads\Observer\Observer\Observer\obj\Debug\Observer.formText.resources
+C:\Users\Isair\Downloads\Observer\Observer\Observer\obj\Debug\Observer.Main.resources
+C:\Users\Isair\Downloads\Observer\Observer\Observer\obj\Debug\Observer.Properties.Resources.resources
+C:\Users\Isair\Downloads\Observer\Observer\Observer\obj\Debug\Observer.csproj.GenerateResource.Cache
+D:\Isair\Study\DPR\Week 2\Observer\Observer\Observer\bin\Debug\Observer.exe.config
+D:\Isair\Study\DPR\Week 2\Observer\Observer\Observer\obj\Debug\Observer.exe
+D:\Isair\Study\DPR\Week 2\Observer\Observer\Observer\obj\Debug\Observer.pdb
+D:\Isair\Study\DPR\Week 2\Observer\Observer\Observer\bin\Debug\Observer.exe
+D:\Isair\Study\DPR\Week 2\Observer\Observer\Observer\bin\Debug\Observer.pdb
+D:\Isair\Study\DPR\Week 2\Observer\Observer\Observer\obj\Debug\Observer.csprojResolveAssemblyReference.cache
+D:\Isair\Study\DPR\Week 2\Observer\Observer\Observer\obj\Debug\Observer.formCircle.resources
+D:\Isair\Study\DPR\Week 2\Observer\Observer\Observer\obj\Debug\Observer.formRectangle.resources
+D:\Isair\Study\DPR\Week 2\Observer\Observer\Observer\obj\Debug\Observer.formText.resources
+D:\Isair\Study\DPR\Week 2\Observer\Observer\Observer\obj\Debug\Observer.Main.resources
+D:\Isair\Study\DPR\Week 2\Observer\Observer\Observer\obj\Debug\Observer.Properties.Resources.resources
+D:\Isair\Study\DPR\Week 2\Observer\Observer\Observer\obj\Debug\Observer.csproj.GenerateResource.Cache

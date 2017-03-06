@@ -17,8 +17,93 @@ namespace Coffee
             InitializeComponent();
         }
 
-        ICoffee currentCoffee;
+        ICoffee currentCoffee = null;
 
+        private void selectSimple_Click(object sender, EventArgs e)
+        {
+            currentCoffee = new SimpleCoffee();
+        }
 
+        private void selectEspresso_Click(object sender, EventArgs e)
+        {
+            currentCoffee = new Espresso();
+        }
+
+        private void selectMocha_Click(object sender, EventArgs e)
+        {
+            currentCoffee = new Mocha();
+        }
+
+        private void addSugar_Click(object sender, EventArgs e)
+        {
+            if (currentCoffee != null)
+            {
+                currentCoffee = new Sugar(currentCoffee);
+            }
+            else { MessageBox.Show("Please select a coffee type first"); }
+        }
+
+        private void addWhip_Click(object sender, EventArgs e)
+        {
+            if (currentCoffee != null)
+            {
+                currentCoffee = new Whip(currentCoffee);
+            }
+            else { MessageBox.Show("Please select a coffee type first"); }
+        }
+
+        private void addChocolate_Click(object sender, EventArgs e)
+        {
+            if (currentCoffee != null)
+            {
+                currentCoffee = new Chocolate(currentCoffee);
+            }
+            else { MessageBox.Show("Please select a coffee type first"); }
+        }
+
+        private void addIce_Click(object sender, EventArgs e)
+        {
+            if (currentCoffee != null)
+            {
+                currentCoffee = new Ice(currentCoffee);
+            }
+            else { MessageBox.Show("Please select a coffee type first"); }
+        }
+
+        private void addSoy_Click(object sender, EventArgs e)
+        {
+            if (currentCoffee != null)
+            {
+                currentCoffee = new Soy(currentCoffee);
+            }
+            else { MessageBox.Show("Please select a coffee type first"); }
+        }
+
+        private void addMilk_Click(object sender, EventArgs e)
+        {
+            if (currentCoffee != null)
+            {
+                currentCoffee = new Milk(currentCoffee);
+            }
+            else { MessageBox.Show("Please select a coffee type first"); }
+        }
+
+        private void finishCreation_Click(object sender, EventArgs e)
+        {
+            if (currentCoffee != null)
+            {
+                string desc = currentCoffee.getDescription();
+                if (desc.Substring(desc.Length - 5, 5) == "with ")
+                {
+                    beveragesSoldLb.Items.Add("Sold plain " + desc.Substring(0,desc.Length-6) + " for " + currentCoffee.getCost());
+                }
+                else
+                {
+                    beveragesSoldLb.Items.Add("Sold " + desc.Substring(0, currentCoffee.getDescription().Length - 2) + " for " + currentCoffee.getCost());
+                }
+                currentCoffee = null;
+            }
+            else { MessageBox.Show("There is no coffee selected."); }
+        }
     }
 }

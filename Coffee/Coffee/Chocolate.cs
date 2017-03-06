@@ -15,7 +15,7 @@ namespace Coffee
 
         public override string getDescription()
         {
-            return tempCoffee.getDescription() + ", Soy";
+            return tempCoffee.getDescription() + "Chocolate sprinkles, ";
         }
         public override double getCost()
         {

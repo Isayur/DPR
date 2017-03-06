@@ -52,6 +52,7 @@
             this.selectSimple.TabIndex = 0;
             this.selectSimple.Text = "Simple";
             this.selectSimple.UseVisualStyleBackColor = true;
+            this.selectSimple.Click += new System.EventHandler(this.selectSimple_Click);
             // 
             // coffeeTypeLabel
             // 
@@ -67,9 +68,9 @@
             this.sweetLabel.AutoSize = true;
             this.sweetLabel.Location = new System.Drawing.Point(190, 5);
             this.sweetLabel.Name = "sweetLabel";
-            this.sweetLabel.Size = new System.Drawing.Size(94, 13);
+            this.sweetLabel.Size = new System.Drawing.Size(63, 13);
             this.sweetLabel.TabIndex = 2;
-            this.sweetLabel.Text = "Sweet condiments";
+            this.sweetLabel.Text = "Sweeteners";
             // 
             // otherLabel
             // 
@@ -88,6 +89,7 @@
             this.selectEspresso.TabIndex = 4;
             this.selectEspresso.Text = "Espresso";
             this.selectEspresso.UseVisualStyleBackColor = true;
+            this.selectEspresso.Click += new System.EventHandler(this.selectEspresso_Click);
             // 
             // selectMocha
             // 
@@ -97,6 +99,7 @@
             this.selectMocha.TabIndex = 5;
             this.selectMocha.Text = "Mocha";
             this.selectMocha.UseVisualStyleBackColor = true;
+            this.selectMocha.Click += new System.EventHandler(this.selectMocha_Click);
             // 
             // addSugar
             // 
@@ -106,6 +109,7 @@
             this.addSugar.TabIndex = 6;
             this.addSugar.Text = "Sugar";
             this.addSugar.UseVisualStyleBackColor = true;
+            this.addSugar.Click += new System.EventHandler(this.addSugar_Click);
             // 
             // addWhip
             // 
@@ -115,6 +119,7 @@
             this.addWhip.TabIndex = 7;
             this.addWhip.Text = "Whip";
             this.addWhip.UseVisualStyleBackColor = true;
+            this.addWhip.Click += new System.EventHandler(this.addWhip_Click);
             // 
             // addChocolate
             // 
@@ -124,6 +129,7 @@
             this.addChocolate.TabIndex = 8;
             this.addChocolate.Text = "Chocolate";
             this.addChocolate.UseVisualStyleBackColor = true;
+            this.addChocolate.Click += new System.EventHandler(this.addChocolate_Click);
             // 
             // addIce
             // 
@@ -133,6 +139,7 @@
             this.addIce.TabIndex = 9;
             this.addIce.Text = "Ice";
             this.addIce.UseVisualStyleBackColor = true;
+            this.addIce.Click += new System.EventHandler(this.addIce_Click);
             // 
             // addSoy
             // 
@@ -142,6 +149,7 @@
             this.addSoy.TabIndex = 10;
             this.addSoy.Text = "Soy";
             this.addSoy.UseVisualStyleBackColor = true;
+            this.addSoy.Click += new System.EventHandler(this.addSoy_Click);
             // 
             // addMilk
             // 
@@ -151,6 +159,7 @@
             this.addMilk.TabIndex = 11;
             this.addMilk.Text = "Milk";
             this.addMilk.UseVisualStyleBackColor = true;
+            this.addMilk.Click += new System.EventHandler(this.addMilk_Click);
             // 
             // finishCreation
             // 
@@ -160,6 +169,7 @@
             this.finishCreation.TabIndex = 12;
             this.finishCreation.Text = "Finalize beverage";
             this.finishCreation.UseVisualStyleBackColor = true;
+            this.finishCreation.Click += new System.EventHandler(this.finishCreation_Click);
             // 
             // beveragesSoldLb
             // 

@@ -1,2 +1,10 @@
 c:\users\yordanov\documents\visual studio 2013\Projects\Coffee\Coffee\bin\Debug\Coffee.exe.config
 D:\GitRepos\DPR\DPR\Coffee\Coffee\bin\Debug\Coffee.exe.config
+D:\GitRepos\DPR\DPR\Coffee\Coffee\bin\Debug\Coffee.exe
+D:\GitRepos\DPR\DPR\Coffee\Coffee\bin\Debug\Coffee.pdb
+D:\GitRepos\DPR\DPR\Coffee\Coffee\obj\Debug\Coffee.csprojResolveAssemblyReference.cache
+D:\GitRepos\DPR\DPR\Coffee\Coffee\obj\Debug\Coffee.Form1.resources
+D:\GitRepos\DPR\DPR\Coffee\Coffee\obj\Debug\Coffee.Properties.Resources.resources
+D:\GitRepos\DPR\DPR\Coffee\Coffee\obj\Debug\Coffee.csproj.GenerateResource.Cache
+D:\GitRepos\DPR\DPR\Coffee\Coffee\obj\Debug\Coffee.exe
+D:\GitRepos\DPR\DPR\Coffee\Coffee\obj\Debug\Coffee.pdb

@@ -10,12 +10,12 @@ namespace Coffee
     {
         public Ice(ICoffee newCoffee)
         {
-            ICoffee tempCoffee = newCoffee;
+            tempCoffee = newCoffee;
         }
 
         public override string getDescription()
         {
-            return tempCoffee.getDescription() + ", Ice";
+            return tempCoffee.getDescription() + "Ice, ";
         }
         public override double getCost()
         {

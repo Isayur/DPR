@@ -1,0 +1,8 @@
+c:\users\yordanov\documents\visual studio 2013\Projects\Memento\Memento\bin\Debug\Memento.exe.config
+c:\users\yordanov\documents\visual studio 2013\Projects\Memento\Memento\bin\Debug\Memento.exe
+c:\users\yordanov\documents\visual studio 2013\Projects\Memento\Memento\bin\Debug\Memento.pdb
+c:\users\yordanov\documents\visual studio 2013\Projects\Memento\Memento\obj\Debug\Memento.Form1.resources
+c:\users\yordanov\documents\visual studio 2013\Projects\Memento\Memento\obj\Debug\Memento.Properties.Resources.resources
+c:\users\yordanov\documents\visual studio 2013\Projects\Memento\Memento\obj\Debug\Memento.csproj.GenerateResource.Cache
+c:\users\yordanov\documents\visual studio 2013\Projects\Memento\Memento\obj\Debug\Memento.exe
+c:\users\yordanov\documents\visual studio 2013\Projects\Memento\Memento\obj\Debug\Memento.pdb

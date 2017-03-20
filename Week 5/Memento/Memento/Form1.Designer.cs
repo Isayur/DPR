@@ -38,9 +38,11 @@
             this.tbGenre = new System.Windows.Forms.TextBox();
             this.tbAge = new System.Windows.Forms.TextBox();
             this.tbAddress = new System.Windows.Forms.TextBox();
-            this.btnUpdate = new System.Windows.Forms.Button();
-            this.btnChange = new System.Windows.Forms.Button();
-            this.btnCancel = new System.Windows.Forms.Button();
+            this.btnNewMemento = new System.Windows.Forms.Button();
+            this.btnSave = new System.Windows.Forms.Button();
+            this.MementoLb = new System.Windows.Forms.ListBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.btnRevert = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // tbFirstName
@@ -74,7 +76,6 @@
             this.label2.Size = new System.Drawing.Size(58, 13);
             this.label2.TabIndex = 3;
             this.label2.Text = "Last Name";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -125,44 +126,63 @@
             this.tbAddress.Size = new System.Drawing.Size(100, 74);
             this.tbAddress.TabIndex = 9;
             // 
-            // btnUpdate
+            // btnNewMemento
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(346, 43);
-            this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(75, 23);
-            this.btnUpdate.TabIndex = 10;
-            this.btnUpdate.Text = "Update";
-            this.btnUpdate.UseVisualStyleBackColor = true;
-            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
+            this.btnNewMemento.Location = new System.Drawing.Point(302, 43);
+            this.btnNewMemento.Name = "btnNewMemento";
+            this.btnNewMemento.Size = new System.Drawing.Size(119, 23);
+            this.btnNewMemento.TabIndex = 10;
+            this.btnNewMemento.Text = "Add memento";
+            this.btnNewMemento.UseVisualStyleBackColor = true;
+            this.btnNewMemento.Click += new System.EventHandler(this.btnNewMemento_Click);
             // 
-            // btnChange
+            // btnSave
             // 
-            this.btnChange.Location = new System.Drawing.Point(346, 85);
-            this.btnChange.Name = "btnChange";
-            this.btnChange.Size = new System.Drawing.Size(75, 23);
-            this.btnChange.TabIndex = 11;
-            this.btnChange.Text = "Change";
-            this.btnChange.UseVisualStyleBackColor = true;
-            this.btnChange.Click += new System.EventHandler(this.btnChange_Click);
+            this.btnSave.Location = new System.Drawing.Point(302, 85);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(119, 23);
+            this.btnSave.TabIndex = 11;
+            this.btnSave.Text = "Save changes";
+            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
-            // btnCancel
+            // MementoLb
             // 
-            this.btnCancel.Location = new System.Drawing.Point(346, 126);
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(75, 23);
-            this.btnCancel.TabIndex = 12;
-            this.btnCancel.Text = "Cancel";
-            this.btnCancel.UseVisualStyleBackColor = true;
-            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
+            this.MementoLb.FormattingEnabled = true;
+            this.MementoLb.Location = new System.Drawing.Point(466, 43);
+            this.MementoLb.Name = "MementoLb";
+            this.MementoLb.Size = new System.Drawing.Size(114, 173);
+            this.MementoLb.TabIndex = 12;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(466, 27);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(114, 13);
+            this.label6.TabIndex = 13;
+            this.label6.Text = "Memento creation time";
+            // 
+            // btnRevert
+            // 
+            this.btnRevert.Location = new System.Drawing.Point(302, 126);
+            this.btnRevert.Name = "btnRevert";
+            this.btnRevert.Size = new System.Drawing.Size(119, 23);
+            this.btnRevert.TabIndex = 14;
+            this.btnRevert.Text = "Revert to memento";
+            this.btnRevert.UseVisualStyleBackColor = true;
+            this.btnRevert.Click += new System.EventHandler(this.btnRevert_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(478, 267);
-            this.Controls.Add(this.btnCancel);
-            this.Controls.Add(this.btnChange);
-            this.Controls.Add(this.btnUpdate);
+            this.ClientSize = new System.Drawing.Size(653, 267);
+            this.Controls.Add(this.btnRevert);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.MementoLb);
+            this.Controls.Add(this.btnSave);
+            this.Controls.Add(this.btnNewMemento);
             this.Controls.Add(this.tbAddress);
             this.Controls.Add(this.tbAge);
             this.Controls.Add(this.tbGenre);
@@ -192,9 +212,11 @@
         private System.Windows.Forms.TextBox tbGenre;
         private System.Windows.Forms.TextBox tbAge;
         private System.Windows.Forms.TextBox tbAddress;
-        private System.Windows.Forms.Button btnUpdate;
-        private System.Windows.Forms.Button btnChange;
-        private System.Windows.Forms.Button btnCancel;
+        private System.Windows.Forms.Button btnNewMemento;
+        private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.ListBox MementoLb;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button btnRevert;
     }
 }
 

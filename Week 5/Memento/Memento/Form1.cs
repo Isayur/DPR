@@ -16,79 +16,61 @@ namespace Memento
         {
             InitializeComponent();
         }
-        Employee employee = new Employee
-        {
-            FirstName = "Jason",
-            LastName = "Statham",
-            Address = "1600 Shirebrook, The Great Britain",
-            Genre = "Male",
-            Age = 30,
-            Original = new EmployeeClone
-            {
-                FirstName = "Jason",
-                LastName = "Statham",
-                Address = "1600 Shirebrook, The Great Britain",
-                Genre = "Male",
-                Age = 30,
-            }
-        };
+        Employee currentEmployee = new Employee();
+        List<EmployeeMemento> employeeMementos = new List<EmployeeMemento>();
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
         private void Form1_Load(object sender, EventArgs e)
         {
-            DisplayDetails();
+
         }
 
         private void DisplayDetails()
         {
-            tbFirstName.Text = employee.FirstName;
-            tbLastName.Text = employee.LastName;
-            tbAddress.Text = employee.Address;
-            tbGenre.Text = employee.Genre;
-            tbAge.Text = employee.Age.ToString();
+            tbFirstName.Text = currentEmployee.FirstName;
+            tbLastName.Text = currentEmployee.LastName;
+            tbAddress.Text = currentEmployee.Address;
+            tbGenre.Text = currentEmployee.Genre;
+            tbAge.Text = currentEmployee.Age.ToString();
         }
 
-        private void btnUpdate_Click(object sender, EventArgs e)
+        private void btnNewMemento_Click(object sender, EventArgs e)
         {
-            employee.FirstName = tbFirstName.Text;
-            employee.LastName = tbLastName.Text;
-            employee.Address = tbAddress.Text;
-            employee.Genre = tbGenre.Text;
-            employee.Age = Convert.ToInt32(tbAge.Text);
-            if (employee.IsModified())
-            {
-                employee.Original.FirstName = employee.FirstName;
-                employee.Original.LastName = employee.LastName;
-                employee.Original.Address = employee.Address;
-                employee.Original.Genre = employee.Genre;
-                employee.Original.Age = employee.Age;   
-            }
+            currentEmployee.FirstName = tbFirstName.Text;
+            currentEmployee.LastName = tbLastName.Text;
+            currentEmployee.Address = tbAddress.Text;
+            currentEmployee.Genre = tbGenre.Text;
+            currentEmployee.Age = Convert.ToInt32(tbAge.Text);
+            employeeMementos.Add(new EmployeeMemento(currentEmployee));
+            MementoLb.Items.Add(employeeMementos[employeeMementos.Count-1].Created);
+            
         }
 
-        private void btnChange_Click(object sender, EventArgs e)
+        private void btnSave_Click(object sender, EventArgs e)
         {
-            employee.FirstName = tbFirstName.Text;
-            employee.LastName = tbLastName.Text;
-            employee.Address = tbAddress.Text;
-            employee.Genre = tbGenre.Text;
-            employee.Age = Convert.ToInt32(tbAge.Text);
-            if (employee.IsModified())
+            if(currentEmployee.FirstName == tbFirstName.Text && currentEmployee.LastName == tbLastName.Text && currentEmployee.Address == tbAddress.Text && 
+                currentEmployee.Genre == tbGenre.Text && currentEmployee.Age == Convert.ToInt32(tbAge.Text))
             {
-                MessageBox.Show("Data is changed");
+                MessageBox.Show("There is nothing to save.");
             }
             else
             {
-                MessageBox.Show("Data is not changed");
+                currentEmployee.FirstName = tbFirstName.Text;
+                currentEmployee.LastName = tbLastName.Text;
+                currentEmployee.Address = tbAddress.Text;
+                currentEmployee.Genre = tbGenre.Text;
+                currentEmployee.Age = Convert.ToInt32(tbAge.Text);
+                MessageBox.Show("Saved all changes to the current employee.");
             }
         }
 
-        private void btnCancel_Click(object sender, EventArgs e)
+        private void btnRevert_Click(object sender, EventArgs e)
         {
-            employee.Revert();
-            DisplayDetails();
+            if (MementoLb.SelectedIndex == -1) { MessageBox.Show("Select a memento first."); }
+            else
+            {
+                currentEmployee = employeeMementos[MementoLb.SelectedIndex].getMemento();
+                DisplayDetails();
+            }
         }
     }
 }

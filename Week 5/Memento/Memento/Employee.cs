@@ -6,8 +6,19 @@ using System.Threading.Tasks;
 
 namespace Memento
 {
-    public class Employee:IEmployee
+    public class Employee
     {
+        public Employee() { }
+        
+        public Employee(string fName, string lName, string add, string pos, int mori)
+        {
+            this.firstName = fName;
+            this.lastName = lName;
+            this.address = add;
+            this.genre = pos;
+            this.age = mori;
+        }
+
         private string firstName;
         public string FirstName
         {
@@ -73,31 +84,6 @@ namespace Memento
             {
                 age = value;
             }
-        }
-        private EmployeeClone original = new EmployeeClone();
-        public EmployeeClone Original
-        {
-            get
-            {
-                return original;
-            }
-            set
-            {
-                original = value;
-            }
-        }
-        public void Revert()
-        {
-            this.FirstName = Original.FirstName;
-            this.LastName = Original.LastName;
-            this.Address = Original.Address;
-            this.Genre = Original.Genre;
-            this.Age = Original.Age;
-        }
-        public Boolean IsModified()
-        {
-            return !(this.FirstName.Equals(Original.FirstName) && this.LastName.Equals(Original.LastName) && 
-                this.Address.Equals(Original.Address) && this.Genre.Equals(Original.Genre) && this.Age.Equals(Original.Age));
         }
     }
 }

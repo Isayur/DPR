@@ -6,3 +6,12 @@ c:\users\yordanov\documents\visual studio 2013\Projects\Memento\Memento\obj\Debu
 c:\users\yordanov\documents\visual studio 2013\Projects\Memento\Memento\obj\Debug\Memento.csproj.GenerateResource.Cache
 c:\users\yordanov\documents\visual studio 2013\Projects\Memento\Memento\obj\Debug\Memento.exe
 c:\users\yordanov\documents\visual studio 2013\Projects\Memento\Memento\obj\Debug\Memento.pdb
+D:\GitRepos\DPR\DPR\Week 5\Memento\Memento\bin\Debug\Memento.exe.config
+D:\GitRepos\DPR\DPR\Week 5\Memento\Memento\bin\Debug\Memento.exe
+D:\GitRepos\DPR\DPR\Week 5\Memento\Memento\bin\Debug\Memento.pdb
+D:\GitRepos\DPR\DPR\Week 5\Memento\Memento\obj\Debug\Memento.csprojResolveAssemblyReference.cache
+D:\GitRepos\DPR\DPR\Week 5\Memento\Memento\obj\Debug\Memento.Form1.resources
+D:\GitRepos\DPR\DPR\Week 5\Memento\Memento\obj\Debug\Memento.Properties.Resources.resources
+D:\GitRepos\DPR\DPR\Week 5\Memento\Memento\obj\Debug\Memento.csproj.GenerateResource.Cache
+D:\GitRepos\DPR\DPR\Week 5\Memento\Memento\obj\Debug\Memento.exe
+D:\GitRepos\DPR\DPR\Week 5\Memento\Memento\obj\Debug\Memento.pdb

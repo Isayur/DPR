@@ -15,3 +15,6 @@ D:\GitRepos\DPR\DPR\Week 5\Memento\Memento\obj\Debug\Memento.Properties.Resource
 D:\GitRepos\DPR\DPR\Week 5\Memento\Memento\obj\Debug\Memento.csproj.GenerateResource.Cache
 D:\GitRepos\DPR\DPR\Week 5\Memento\Memento\obj\Debug\Memento.exe
 D:\GitRepos\DPR\DPR\Week 5\Memento\Memento\obj\Debug\Memento.pdb
+C:\Users\Yordanov\Desktop\DPR\Week 5\Memento\Memento\bin\Debug\Memento.exe.config
+C:\Users\Yordanov\Desktop\DPR\Week 5\Memento\Memento\obj\Debug\Memento.exe
+C:\Users\Yordanov\Desktop\DPR\Week 5\Memento\Memento\obj\Debug\Memento.pdb

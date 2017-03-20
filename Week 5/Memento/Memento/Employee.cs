@@ -15,7 +15,7 @@ namespace Memento
             this.firstName = fName;
             this.lastName = lName;
             this.address = add;
-            this.genre = pos;
+            this.job = pos;
             this.age = mori;
         }
 
@@ -60,16 +60,16 @@ namespace Memento
             }
         }
 
-        private string genre;
-        public string Genre
+        private string job;
+        public string Job
         {
             get
             {
-                return genre;
+                return Job;
             }
             set
             {
-                genre = value;
+                Job = value;
             }
         }
 

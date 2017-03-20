@@ -29,7 +29,7 @@ namespace Memento
             tbFirstName.Text = currentEmployee.FirstName;
             tbLastName.Text = currentEmployee.LastName;
             tbAddress.Text = currentEmployee.Address;
-            tbGenre.Text = currentEmployee.Genre;
+            tbGenre.Text = currentEmployee.Job;
             tbAge.Text = currentEmployee.Age.ToString();
         }
 
@@ -38,7 +38,7 @@ namespace Memento
             currentEmployee.FirstName = tbFirstName.Text;
             currentEmployee.LastName = tbLastName.Text;
             currentEmployee.Address = tbAddress.Text;
-            currentEmployee.Genre = tbGenre.Text;
+            currentEmployee.Job = tbGenre.Text;
             currentEmployee.Age = Convert.ToInt32(tbAge.Text);
             employeeMementos.Add(new EmployeeMemento(currentEmployee));
             MementoLb.Items.Add(employeeMementos[employeeMementos.Count-1].Created);
@@ -48,7 +48,7 @@ namespace Memento
         private void btnSave_Click(object sender, EventArgs e)
         {
             if(currentEmployee.FirstName == tbFirstName.Text && currentEmployee.LastName == tbLastName.Text && currentEmployee.Address == tbAddress.Text && 
-                currentEmployee.Genre == tbGenre.Text && currentEmployee.Age == Convert.ToInt32(tbAge.Text))
+                currentEmployee.Job == tbGenre.Text && currentEmployee.Age == Convert.ToInt32(tbAge.Text))
             {
                 MessageBox.Show("There is nothing to save.");
             }
@@ -57,7 +57,7 @@ namespace Memento
                 currentEmployee.FirstName = tbFirstName.Text;
                 currentEmployee.LastName = tbLastName.Text;
                 currentEmployee.Address = tbAddress.Text;
-                currentEmployee.Genre = tbGenre.Text;
+                currentEmployee.Job = tbGenre.Text;
                 currentEmployee.Age = Convert.ToInt32(tbAge.Text);
                 MessageBox.Show("Saved all changes to the current employee.");
             }

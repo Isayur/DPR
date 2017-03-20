@@ -13,7 +13,7 @@ namespace Memento
             firstName = main.FirstName;
             lastName = main.LastName;
             address = main.Address;
-            genre = main.Genre;
+            job = main.Job;
             age = main.Age;
             created = DateTime.Now.ToString("h:mm:ss tt");
         }
@@ -27,13 +27,13 @@ namespace Memento
 
         private string address;
 
-        private string genre;
+        private string job;
        
         private int age;
 
         public Employee getMemento()
         {
-            Employee temp = new Memento.Employee(firstName, lastName, address, genre, age);
+            Employee temp = new Memento.Employee(firstName, lastName, address, job, age);
             return temp;
         }
 

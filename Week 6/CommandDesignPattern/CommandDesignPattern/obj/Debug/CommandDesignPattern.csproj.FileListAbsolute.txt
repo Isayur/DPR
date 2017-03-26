@@ -1,0 +1,8 @@
+c:\users\yordanov\documents\visual studio 2013\Projects\CommandDesignPattern\CommandDesignPattern\bin\Debug\CommandDesignPattern.exe.config
+c:\users\yordanov\documents\visual studio 2013\Projects\CommandDesignPattern\CommandDesignPattern\obj\Debug\CommandDesignPattern.Form1.resources
+c:\users\yordanov\documents\visual studio 2013\Projects\CommandDesignPattern\CommandDesignPattern\obj\Debug\CommandDesignPattern.Properties.Resources.resources
+c:\users\yordanov\documents\visual studio 2013\Projects\CommandDesignPattern\CommandDesignPattern\obj\Debug\CommandDesignPattern.csproj.GenerateResource.Cache
+c:\users\yordanov\documents\visual studio 2013\Projects\CommandDesignPattern\CommandDesignPattern\bin\Debug\CommandDesignPattern.exe
+c:\users\yordanov\documents\visual studio 2013\Projects\CommandDesignPattern\CommandDesignPattern\bin\Debug\CommandDesignPattern.pdb
+c:\users\yordanov\documents\visual studio 2013\Projects\CommandDesignPattern\CommandDesignPattern\obj\Debug\CommandDesignPattern.exe
+c:\users\yordanov\documents\visual studio 2013\Projects\CommandDesignPattern\CommandDesignPattern\obj\Debug\CommandDesignPattern.pdb

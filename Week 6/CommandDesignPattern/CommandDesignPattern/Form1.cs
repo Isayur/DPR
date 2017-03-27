@@ -44,8 +44,7 @@ namespace CommandDesignPattern
                 else
                 {
                     TurnTVOn onCommand = new TurnTVOn(temp);
-                    DeviceButton onPress = new DeviceButton(onCommand);
-                    listBox1.Items[listBox1.SelectedIndex] = onPress.press();
+                    listBox1.Items[listBox1.SelectedIndex] = onCommand.execute();
                 }
             }
         }
@@ -60,8 +59,7 @@ namespace CommandDesignPattern
                 else
                 {
                     TurnTVOff onCommand = new TurnTVOff(temp);
-                    DeviceButton onPress = new DeviceButton(onCommand);
-                    listBox1.Items[listBox1.SelectedIndex] = onPress.press();
+                    listBox1.Items[listBox1.SelectedIndex] = onCommand.execute();
                 }
             }
         }
@@ -76,8 +74,7 @@ namespace CommandDesignPattern
                 else
                 {
                     TurnTVUp onCommand = new TurnTVUp(temp);
-                    DeviceButton onPress = new DeviceButton(onCommand);
-                    listBox1.Items[listBox1.SelectedIndex] = onPress.press();
+                    listBox1.Items[listBox1.SelectedIndex] = onCommand.execute();
                 }
             }
         }
@@ -92,8 +89,7 @@ namespace CommandDesignPattern
                 else
                 {
                     TurnTVDown onCommand = new TurnTVDown(temp);
-                    DeviceButton onPress = new DeviceButton(onCommand);
-                    listBox1.Items[listBox1.SelectedIndex] = onPress.press();
+                    listBox1.Items[listBox1.SelectedIndex] = onCommand.execute();
                 }
             }
         }
@@ -101,8 +97,7 @@ namespace CommandDesignPattern
         private void TurnAllOffBtn_Click(object sender, EventArgs e)
         {
             TurnAllOff onCommand = new CommandDesignPattern.TurnAllOff(currentDevices);
-            DeviceButton onPress = new CommandDesignPattern.DeviceButton(onCommand);
-            onPress.press();
+            onCommand.execute();
             listBox1.Items.Clear();
             foreach(ElectronicDevice device in currentDevices)
             {

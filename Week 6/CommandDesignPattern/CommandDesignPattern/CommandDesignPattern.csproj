@@ -45,7 +45,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Command.cs" />
-    <Compile Include="DeviceButton.cs" />
     <Compile Include="ElectronicDevice.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>

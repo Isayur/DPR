@@ -15,3 +15,6 @@ D:\GitRepos\DPR\DPR\Week 6\CommandDesignPattern\CommandDesignPattern\obj\Debug\C
 D:\GitRepos\DPR\DPR\Week 6\CommandDesignPattern\CommandDesignPattern\obj\Debug\CommandDesignPattern.csproj.GenerateResource.Cache
 D:\GitRepos\DPR\DPR\Week 6\CommandDesignPattern\CommandDesignPattern\bin\Debug\CommandDesignPattern.exe
 D:\GitRepos\DPR\DPR\Week 6\CommandDesignPattern\CommandDesignPattern\bin\Debug\CommandDesignPattern.pdb
+C:\Users\Yordanov\Desktop\DPR\Week 6\CommandDesignPattern\CommandDesignPattern\bin\Debug\CommandDesignPattern.exe.config
+C:\Users\Yordanov\Desktop\DPR\Week 6\CommandDesignPattern\CommandDesignPattern\obj\Debug\CommandDesignPattern.exe
+C:\Users\Yordanov\Desktop\DPR\Week 6\CommandDesignPattern\CommandDesignPattern\obj\Debug\CommandDesignPattern.pdb

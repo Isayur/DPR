@@ -13,9 +13,9 @@ namespace CommandDesignPattern
         {
             theCommand = newCommand;
         }
-        public void press()
+        public string press()
         {
-            theCommand.execute();
+            return theCommand.execute();
         }
     }
 }

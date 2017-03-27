@@ -10,26 +10,44 @@ namespace CommandDesignPattern
     public class Television:ElectronicDevice
     {
         private int volume = 0;
-        public void on()
+        private bool status = false;
+        private string statusString;
+        public string on()
         {
-            MessageBox.Show("TV is ON");
+            status = true;
+            statusString = "Television; Volume: " + volume;
+            return statusString;
         }
 
-        public void off()
+        public string off()
         {
-            MessageBox.Show("TV is OFF");
+            status = false;
+            statusString = "Television; Off";
+            return statusString;
         }
 
-        public void volumeUp()
+        public string volumeUp()
         {
-            volume++;
-            MessageBox.Show("TV volume is at " + volume);
+            if (volume < 100) { volume++; }
+            else { MessageBox.Show("Volume cannot be above 1000"); }
+            statusString = "Television; Volume: " + volume;
+            return statusString;
         }
 
-        public void volumeDown()
+        public string volumeDown()
         {
-            volume--;
-            MessageBox.Show("TV volume is at " + volume);
+            if (volume > 0) { volume--; }
+            else { MessageBox.Show("Volume cannot be below 0"); }
+            statusString = "Television; Volume: " + volume;
+            return statusString;
+        }
+        public bool getStatus()
+        {
+            return status;
+        }
+        public string getStatusString()
+        {
+            return statusString;
         }
     }
 }

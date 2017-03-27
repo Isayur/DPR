@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace CommandDesignPattern
 {
-    public class TurnTVOn:Command
+    class TurnTVDown : Command
     {
         ElectronicDevice theDevice;
 
-        public TurnTVOn(ElectronicDevice newDevice)
+        public TurnTVDown(ElectronicDevice newDevice)
         {
             theDevice = newDevice;
         }
         public string execute()
         {
-            return theDevice.on();
+            return theDevice.volumeDown();
         }
     }
 }

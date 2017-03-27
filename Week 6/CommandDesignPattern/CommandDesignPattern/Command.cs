@@ -8,6 +8,6 @@ namespace CommandDesignPattern
 {
     public  interface Command
     {
-        void execute();
+        string execute();
     }
 }

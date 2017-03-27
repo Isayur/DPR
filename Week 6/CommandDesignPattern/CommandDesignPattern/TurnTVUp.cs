@@ -14,9 +14,9 @@ namespace CommandDesignPattern
         {
             theDevice = newDevice;
         }
-        public void execute()
+        public string execute()
         {
-            theDevice.volumeUp();
+            return theDevice.volumeUp();
         }
     }
 }

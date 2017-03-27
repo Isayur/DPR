@@ -11,3 +11,6 @@ D:\GitRepos\DPR\DPR\Coffee\Coffee\obj\Debug\Coffee.pdb
 C:\Users\Yordanov\Desktop\DPR\Coffee\Coffee\bin\Debug\Coffee.exe.config
 C:\Users\Yordanov\Desktop\DPR\Coffee\Coffee\obj\Debug\Coffee.exe
 C:\Users\Yordanov\Desktop\DPR\Coffee\Coffee\obj\Debug\Coffee.pdb
+D:\GitRepos\DPR\DPR\Week 3\Coffee\Coffee\bin\Debug\Coffee.exe.config
+D:\GitRepos\DPR\DPR\Week 3\Coffee\Coffee\obj\Debug\Coffee.exe
+D:\GitRepos\DPR\DPR\Week 3\Coffee\Coffee\obj\Debug\Coffee.pdb

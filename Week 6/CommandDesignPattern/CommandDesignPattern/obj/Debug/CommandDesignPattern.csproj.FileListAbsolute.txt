@@ -6,3 +6,12 @@ c:\users\yordanov\documents\visual studio 2013\Projects\CommandDesignPattern\Com
 c:\users\yordanov\documents\visual studio 2013\Projects\CommandDesignPattern\CommandDesignPattern\bin\Debug\CommandDesignPattern.pdb
 c:\users\yordanov\documents\visual studio 2013\Projects\CommandDesignPattern\CommandDesignPattern\obj\Debug\CommandDesignPattern.exe
 c:\users\yordanov\documents\visual studio 2013\Projects\CommandDesignPattern\CommandDesignPattern\obj\Debug\CommandDesignPattern.pdb
+D:\GitRepos\DPR\DPR\Week 6\CommandDesignPattern\CommandDesignPattern\bin\Debug\CommandDesignPattern.exe.config
+D:\GitRepos\DPR\DPR\Week 6\CommandDesignPattern\CommandDesignPattern\obj\Debug\CommandDesignPattern.exe
+D:\GitRepos\DPR\DPR\Week 6\CommandDesignPattern\CommandDesignPattern\obj\Debug\CommandDesignPattern.pdb
+D:\GitRepos\DPR\DPR\Week 6\CommandDesignPattern\CommandDesignPattern\obj\Debug\CommandDesignPattern.csprojResolveAssemblyReference.cache
+D:\GitRepos\DPR\DPR\Week 6\CommandDesignPattern\CommandDesignPattern\obj\Debug\CommandDesignPattern.Form1.resources
+D:\GitRepos\DPR\DPR\Week 6\CommandDesignPattern\CommandDesignPattern\obj\Debug\CommandDesignPattern.Properties.Resources.resources
+D:\GitRepos\DPR\DPR\Week 6\CommandDesignPattern\CommandDesignPattern\obj\Debug\CommandDesignPattern.csproj.GenerateResource.Cache
+D:\GitRepos\DPR\DPR\Week 6\CommandDesignPattern\CommandDesignPattern\bin\Debug\CommandDesignPattern.exe
+D:\GitRepos\DPR\DPR\Week 6\CommandDesignPattern\CommandDesignPattern\bin\Debug\CommandDesignPattern.pdb

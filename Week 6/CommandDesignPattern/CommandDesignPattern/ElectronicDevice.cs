@@ -8,12 +8,15 @@ namespace CommandDesignPattern
 {
     public interface ElectronicDevice
     {
-        void on();
+        string on();
 
-        void off();
+        string off();
 
-        void volumeUp();
+        string volumeUp();
 
-        void volumeDown();   
+        string volumeDown();
+        bool getStatus();
+
+        string getStatusString();
     }
 }

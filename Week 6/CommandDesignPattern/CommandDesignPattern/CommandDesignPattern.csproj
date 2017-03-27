@@ -58,10 +58,10 @@
     <Compile Include="Radio.cs" />
     <Compile Include="Television.cs" />
     <Compile Include="TurnAllOff.cs" />
+    <Compile Include="TurnTVDown.cs" />
     <Compile Include="TurnTVOff.cs" />
     <Compile Include="TurnTVOn.cs" />
     <Compile Include="TurnTVUp.cs" />
-    <Compile Include="TVRemote.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

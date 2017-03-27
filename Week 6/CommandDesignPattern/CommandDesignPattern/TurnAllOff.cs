@@ -14,9 +14,13 @@ namespace CommandDesignPattern
             theDevices = newDevices;
         }
 
-        public void execute()
+        public string execute()
         {
-            //прост for loop, който ще shut down всяко едно устройство
+            foreach(ElectronicDevice aDevice in theDevices)
+            {
+                aDevice.off();
+            }
+            return "";
         }
     }
 }

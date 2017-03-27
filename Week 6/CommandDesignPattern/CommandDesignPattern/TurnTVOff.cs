@@ -15,9 +15,9 @@ namespace CommandDesignPattern
             theDevice = newDevice;
         }
 
-        public void execute()
+        public string execute()
         {
-            theDevice.off();
+            return theDevice.off();
         }
     }
 }

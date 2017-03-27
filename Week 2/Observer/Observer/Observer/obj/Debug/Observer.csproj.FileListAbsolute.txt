@@ -33,3 +33,6 @@ D:\Isair\Study\DPR\Week 2\Observer\Observer\Observer\obj\Debug\Observer.formText
 D:\Isair\Study\DPR\Week 2\Observer\Observer\Observer\obj\Debug\Observer.Main.resources
 D:\Isair\Study\DPR\Week 2\Observer\Observer\Observer\obj\Debug\Observer.Properties.Resources.resources
 D:\Isair\Study\DPR\Week 2\Observer\Observer\Observer\obj\Debug\Observer.csproj.GenerateResource.Cache
+D:\GitRepos\DPR\DPR\Week 2\Observer\Observer\Observer\bin\Debug\Observer.exe.config
+D:\GitRepos\DPR\DPR\Week 2\Observer\Observer\Observer\obj\Debug\Observer.exe
+D:\GitRepos\DPR\DPR\Week 2\Observer\Observer\Observer\obj\Debug\Observer.pdb

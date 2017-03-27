@@ -29,7 +29,7 @@ namespace CommandDesignPattern
         public string volumeUp()
         {
             if (volume < 100) { volume++; }
-            else { MessageBox.Show("Volume cannot be above 1000"); }
+            else { MessageBox.Show("Volume cannot be above 100"); }
             statusString = "Radio; Volume: " + volume;
             return statusString;
         }

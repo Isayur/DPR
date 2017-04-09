@@ -6,16 +6,15 @@ using System.Threading.Tasks;
 
 namespace Abstract_Factory
 {
-    public class SeaAnimalFactory:AnimalFactory
+    public class SeaAnimalFactory : AnimalFactory
     {
-        public Animal getAnimal(String animalType)
+        public override Animal getDocileAnimal()
         {
-            Animal animal  = null;
-            if ("shark".Equals(animalType))
-            {
-                animal = new Shark();
-            }
-            return animal;
+            return new Starfish();
+        }
+        public override Animal getFerociousAnimal()
+        {
+            return new Shark();
         }
     }
 }

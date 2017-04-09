@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace Abstract_Factory
 {
-    public class Shark:Animal
+    public class Starfish : Animal
     {
         public string returnType()
         {
-            return "Something famous for eating pirates' limbs.";
+            return "Starfish. Like Patrick.";
         }
 
         public string speak()
         {
-            return "A talking ghost shark? Are you crazy?";
+            return "No, this is Patrick!";
         }
     }
 }

@@ -8,6 +8,7 @@ namespace Abstract_Factory
 {
     public interface Animal
     {
-        public String speak();
+        String returnType();
+        String speak();
     }
 }

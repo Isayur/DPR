@@ -3,25 +3,38 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Abstract_Factory
 {
-    public abstract class AnimalFactory
+    public class AnimalFactory
     {
-        public abstract Animal getAnimal(String animalType);
-
-        public static AnimalFactory getAnimalFactory(String factoryType)
+        static AnimalFactory currentFactory;
+        public AnimalFactory CurrentFactory { get { return currentFactory; } }
+        public virtual Animal getDocileAnimal()
         {
-            AnimalFactory animalFactory = null;
+            return currentFactory.getDocileAnimal();
+        }
+        public virtual Animal getFerociousAnimal()
+        {
+            return currentFactory.getFerociousAnimal();
+        }
+        
+
+        public void setAnimalFactory(String factoryType)
+        {
             if ("sea".Equals(factoryType))
             {
-                animalFactory = new SeaAnimalFactory();
+                currentFactory = new SeaAnimalFactory();
+            }
+            else if ("land".Equals(factoryType))
+            {
+                currentFactory = new LandAnimalFactory();
             }
             else
             {
-                animalFactory = new LandAnimalFactory();
+                MessageBox.Show("Invalid factory type");
             }
-            return animalFactory;
         }
     }
 }

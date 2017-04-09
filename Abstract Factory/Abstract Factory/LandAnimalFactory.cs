@@ -8,18 +8,13 @@ namespace Abstract_Factory
 {
     public class LandAnimalFactory:AnimalFactory
     {
-        public Animal getAnimal(string animalType)
+        public override Animal getDocileAnimal()
         {
-            Animal animal = null;
-            if ("dog".Equals(animalType))
-            {
-                animal = new Dog();
-            }
-            else if ("cat".Equals(animalType))
-            {
-                animal = new Cat();
-            }
-            return animal;
+            return new Dog();
+        }
+        public override Animal getFerociousAnimal()
+        {
+            return new Cat();
         }
     }
 }

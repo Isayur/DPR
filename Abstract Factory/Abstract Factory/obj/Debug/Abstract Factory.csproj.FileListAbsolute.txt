@@ -8,3 +8,6 @@ D:\GitRepos\DPR\DPR\Abstract Factory\Abstract Factory\obj\Debug\Abstract_Factory
 D:\GitRepos\DPR\DPR\Abstract Factory\Abstract Factory\obj\Debug\Abstract Factory.csproj.GenerateResource.Cache
 D:\GitRepos\DPR\DPR\Abstract Factory\Abstract Factory\obj\Debug\Abstract Factory.exe
 D:\GitRepos\DPR\DPR\Abstract Factory\Abstract Factory\obj\Debug\Abstract Factory.pdb
+C:\Users\Yordanov\Desktop\DPR\Abstract Factory\Abstract Factory\bin\Debug\Abstract Factory.exe.config
+C:\Users\Yordanov\Desktop\DPR\Abstract Factory\Abstract Factory\obj\Debug\Abstract Factory.exe
+C:\Users\Yordanov\Desktop\DPR\Abstract Factory\Abstract Factory\obj\Debug\Abstract Factory.pdb

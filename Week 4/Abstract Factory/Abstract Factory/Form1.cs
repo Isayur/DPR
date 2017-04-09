@@ -24,9 +24,9 @@ namespace Abstract_Factory
         {
             if(radioButton1.Checked == true)
             {
-                animalFactoryMain.setAnimalFactory("sea");
+                animalFactoryMain.setAnimalFactory("land");
                 animal = null;
-                listBox1.Items.Add("Factory type changed");
+                listBox1.Items.Add("Factory type changed to land animal factory");
             }
         }
 
@@ -34,9 +34,9 @@ namespace Abstract_Factory
         {
             if(radioButton2.Checked == true)
             {
-                animalFactoryMain.setAnimalFactory("land");
+                animalFactoryMain.setAnimalFactory("sea");
                 animal = null;
-                listBox1.Items.Add("Factory type changed");
+                listBox1.Items.Add("Factory type changed to sea animal factory");
             }
         }
 
@@ -45,7 +45,7 @@ namespace Abstract_Factory
             if (animalFactoryMain.CurrentFactory != null)
             {
                 animal = animalFactoryMain.getDocileAnimal();
-                listBox1.Items.Add("New animal fetched");
+                listBox1.Items.Add("New docile animal fetched");
             }
             else { MessageBox.Show("Select an animal factory first"); }
         }
@@ -55,7 +55,7 @@ namespace Abstract_Factory
             if (animalFactoryMain.CurrentFactory != null)
             {
                 animal = animalFactoryMain.getFerociousAnimal();
-                listBox1.Items.Add("New animal fetched");
+                listBox1.Items.Add("New ferocious animal fetched");
             }
             else { MessageBox.Show("Select an animal factory first"); }
         }
